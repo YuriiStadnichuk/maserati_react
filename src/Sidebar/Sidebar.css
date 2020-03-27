@@ -1,0 +1,18 @@
+.sidebar {
+    position: relative;
+    margin-left: 76px;
+}
+.dl-bottom {
+    width: 132px;
+    margin-left: 116px;
+    margin-top: 187px;
+}
+.triangle-medium {
+    width: 0;
+    height: 0;
+    border-bottom: 129px solid #fff;
+    border-right: 129px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+}

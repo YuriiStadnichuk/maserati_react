@@ -1,0 +1,66 @@
+.vertical-line {
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+    margin-left: 24px;
+    width: 73px;
+    height: 0;
+}
+
+.article {
+    font-weight: normal;
+    text-align: right;
+}
+
+.article h2 {
+    position: absolute;
+    width: 386px;
+    height: 124px;
+    right: 63px;
+    top: -550px;
+    font-family: "Playfair Display";
+    font-size: 56px;
+    color: #0D0D0D;
+}
+
+.article h2 span:last-child {
+    font-size: 38px;
+}
+
+.article p {
+    position: absolute;
+    width: 219px;
+    height: 94px;
+    right: 58px;
+    top: -356px;
+    font-family: "Podkova";
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.article p:last-child {
+    right: 79px;
+    top: -216px;
+}
+
+.article p:last-child a {
+    color: #262626;
+    text-decoration: none;
+}
+
+.article p:last-child::after {
+    content: " ";
+    height: 15px;
+    width: 10px;
+    background: url('../images/Vector 2 (4).png') no-repeat;
+    position: absolute;
+    top: 1px;
+    right: -18px;
+}
+
+.triangle-big {
+    border-top: 591px solid #fff;
+    border-left: 591px solid transparent;
+    position: absolute;
+    right: -35px;
+}
